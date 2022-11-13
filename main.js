@@ -146,7 +146,7 @@ var commands = {
 
   download_resume: function () {
     downloadURI(
-      "downloads/Georgedavid resume.pdf"
+      "Georgedavid resume.pdf"
     );
   },
 
