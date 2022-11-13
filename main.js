@@ -111,7 +111,7 @@ ${OUTPUT_STRING}${glow( "Unitiy Engine")}       ##  [[g;#99D100;]####]          
 ${OUTPUT_STRING}${glow("solidity")}            ##  [[g;#D1B900;]###]                                     ##
 `,
   contact: `
-${OUTPUT_STRING}${glow("Email")}            - georgedavid.work@gmai.com
+${OUTPUT_STRING}${glow("Email")}            - georgedavid.work@gmail.com
 ${OUTPUT_STRING}${glow("Linkedin")}         - https://www.linkedin.com/in/georgedavidd
 ${OUTPUT_STRING}${glow("Github")}           - https://github.com/George-1100/
 
