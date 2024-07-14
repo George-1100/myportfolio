@@ -28,11 +28,11 @@ var banner = teal(
     "                                                                         \t\n\n\n"
 );
 
-const welcomeMessage = Welcome to my portfolio fellow humans and bots.
+const welcomeMessage = `Welcome to my portfolio fellow humans and bots.
 Type 'ls' to view a list of available commands..
-;
-const starWarsMessage = Star Wars: Episode IV produced by Simon Jansen (http://www.asciimation.co.nz)
-Press ctrl + z to stop.;
+`;
+const starWarsMessage = `Star Wars: Episode IV produced by Simon Jansen (http://www.asciimation.co.nz)
+Press ctrl + z to stop.`;
 // Boolean to keep track of whether Star Wars is animating
 var play = false;
 
@@ -60,11 +60,11 @@ function getYear() {
   return today.getFullYear();
 }
 const messages = {
-  repo: 
+  repo: `
 ${OUTPUT_STRING} https://github.com/George-1100/
 
-,
-  ls: 
+`,
+  ls: `
 Wow, I thought the only people who would visit this site would be bots and spammers, guess I was wrong.
 Just type any of the commands below to get some more info. You can even type a few letters and press [tab] to autocomplete.
 
@@ -79,8 +79,8 @@ ${OUTPUT_STRING}${glow("contact")}            - ping me
 ${OUTPUT_STRING}${glow("all")}                - Tell me everything
 
 
-,
-  whois: 
+`,
+  whois: `
 
 I am  ${glow("George David")}.
 I'm a ${getAge("2003/03/15")} year old ${glow(
@@ -94,33 +94,33 @@ Some of my interests include ${glow(
 
 please feel free to get in touch with me to discuss any cool opportunities!
 My contact details can be found by typing 'contact', and if you would like to check out my resume, simply type 'download_resume'.
-,
-  projects: 
+`,
+  projects: `
 ${glow(1)} I have done arduino based railway platform security project.
 ${glow(2)} open-python based iris detection project
 ${glow(3)} C# based keylogger project. 
 ${glow(4)} I have done 1 month internship at Kaashiv infotech chennai.  
 ${glow(5)} check out a few of my public repos? Just type 'repo' to get the links.
-,
-  skills: 
+`,
+  skills: `
 ${OUTPUT_STRING}${glow("Python")}              ##  [[g;#00DE12;]######################################]  ##
 ${OUTPUT_STRING}${glow("Ethical hacking")}     ##  [[g;#42D100;]##################################]      ##
 ${OUTPUT_STRING}${glow("penetration testing")} ##  [[g;#5BD100;]################################]        ##
 ${OUTPUT_STRING}${glow("C & C++")}             ##  [[g;#D16200;]###########]                             ##
 ${OUTPUT_STRING}${glow( "Unitiy Engine")}       ##  [[g;#99D100;]####]                                    ##
 ${OUTPUT_STRING}${glow("solidity")}            ##  [[g;#D1B900;]###]                                     ##
-,
-  contact: 
+`,
+  contact: `
 ${OUTPUT_STRING}${glow("Email")}            - georgedavid.work@gmail.com
 ${OUTPUT_STRING}${glow("Linkedin")}         - https://www.linkedin.com/in/georgedavidd
 ${OUTPUT_STRING}${glow("Github")}           - https://github.com/George-1100/
 
-,
+`,
 };
 
 var commands = {
   ls: function () {
-    this.echo(messages.ls);
+    typed_message(this, messages.ls, 30);
   },
 
   repo: function () {
@@ -214,7 +214,7 @@ $(function () {
     clear: false,
 
     onInit: function (term) {
-      typed_message(term, welcomeMessage, 0, function () {});
+      typed_message(term, welcomeMessage, 30, function () {});
     },
 
     keydown: function (e) {        
