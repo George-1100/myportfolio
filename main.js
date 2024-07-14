@@ -11,7 +11,7 @@ var titleText = function (text) {
 };
 
 function teal(message) {
-  return "[[gb;teal;black]" + message + "]";
+  return "[[gb;teal;yellow]" + message + "]";
 }
 //-----------------------------------------------------
 
