@@ -214,7 +214,7 @@ $(function () {
     clear: false,
 
     onInit: function (term) {
-      typed_message(term, welcomeMessage, 0, function () {});
+      typed_message(term, welcomeMessage, 30, function () {});
     },
 
     keydown: function (e) {        
