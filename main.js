@@ -120,7 +120,7 @@ ${OUTPUT_STRING}${glow("Github")}           - https://github.com/George-1100/
 
 var commands = {
   ls: function () {
-    this.echo(messages.ls);
+    typed_message(this, messages.ls, 30);
   },
 
   repo: function () {
