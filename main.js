@@ -1,3 +1,4 @@
+
 // Formatting
 //-----------------------------------------------------
 const OUTPUT_STRING = "  ";
@@ -28,9 +29,13 @@ var banner = teal(
     "                                                                         \t\n\n\n"
 );
 
-const welcomeMessage = `Welcome to my portfolio fellow humans and bots.
+
+
+const welcomeMessage = (`Welcome to my portfolio fellow humans and bots.
 Type 'ls' to view a list of available commands..
-`;
+`);
+
+
 const starWarsMessage = `Star Wars: Episode IV produced by Simon Jansen (http://www.asciimation.co.nz)
 Press ctrl + z to stop.`;
 // Boolean to keep track of whether Star Wars is animating
@@ -81,9 +86,7 @@ ${OUTPUT_STRING}${glow("all")}                - Tell me everything
 
 `,
   whois: `
-
-  "My name is ${glow(George David".)} I am a ${getAge("2003/03/15")-year-old ${glow("SOC Analyst")} from Tamil Nadu, India."
-  
+My name is ${glow("George David.")} I am a ${getAge("2003/03/15")}-year-old ${glow("SOC Analyst")} from Tamil Nadu, India.
 As an L1 SOC Analyst at SkySecure, I specialize in Azure Sentinel, focusing on incident handling and providing timely responses to client tickets, offering remediation steps to address security issues. My day-to-day responsibilities involve executing security operation procedures to ensure robust protection for our clients.
 
 In addition to my work with Azure Sentinel, I also utilize Microsoft Defender for Endpoint to investigate suspicious activities and detect malware. When necessary, I run antivirus scans to clean infected systems and maintain their integrity.
@@ -93,29 +96,29 @@ Furthermore, I leverage Microsoft Defender for Office to investigate quarantined
 Previously, I interned at Zoho as a Security Engineer Intern, where I gained valuable experience in analyzing Java-based web application code for vulnerabilities such as XSS and SQL injection. This experience significantly enhanced my skills and knowledge in cybersecurity, allowing me to contribute effectively to my current role.
 
 I am also deeply interested in malware analysis, reverse engineering, and digital forensics. These areas fascinate me as they involve understanding the intricate details of cyber threats and devising strategies to mitigate them. I continuously seek to expand my expertise in these fields to stay ahead in the ever-evolving landscape of cybersecurity.
-  )}. 
+
 
 please feel free to get in touch with me to discuss any cool opportunities!
 My contact details can be found by typing 'contact', and if you would like to check out my resume, simply type 'download_resume'.
 `,
   projects: `
-${glow(1)} LIMACHARLIE EDR AND SOAR
-${glow(2)} AZURE SENTINEL THREAT MONITORING
-${glow(3)} WAZUH LAB
-${glow(4)} NESSUS VULNERABILITY MANAGEMENT
-${glow(5)} DIGITAL FORENSICS ON WANNACRY RANSOMWARE
-${glow(6)}  Zues banking trojan malware analysis
+  ${glow(1)} LIMACHARLIE EDR AND SOAR                 - https://github.com/George-1100/Limacharle-EDR-SOAR
+  ${glow(2)} AZURE SENTINEL THREAT MONITORING         - https://github.com/George-1100/sentinal
+  ${glow(3)} WAZUH LAB                                - https://github.com/George-1100/wazuh-Lab
+  ${glow(4)} NESSUS VULNERABILITY MANAGEMENT          - https://github.com/George-1100/Nessus-vulerablity-management
+  ${glow(5)} DIGITAL FORENSICS ON WANNACRY RANSOMWARE - https://github.com/George-1100/Digital-forensics
+  ${glow(6)} Zues banking trojan malware analysis     - https://github.com/George-1100/Zues-banking-trojan-malware--ana
 
-Just type 'repo' to get the project documentation links.
+  Just type 'repo' to get the GitHub link to check other project documentations.    
 `,
   skills: `
-${OUTPUT_STRING}${glow("Networking")}             ##  [[g;#00DE12;]######################################]  ##
-${OUTPUT_STRING}${glow("Linux")}     ##  [[g;#42D100;]##################################]      ##
-${OUTPUT_STRING}${glow("SIEM, EDR, Email security")} ##  [[g;#5BD100;]################################]        ##
-${OUTPUT_STRING}${glow(" web application attacks" )}             ##  [[g;#D16200;]###########]                             ##
-${OUTPUT_STRING}${glow( "azure sentinel, KQL,
- Defender for Endpoint and office 365")}       ##  [[g;#99D100;]####]                                    ##
-${OUTPUT_STRING}${glow("Email analysis")}            ##  [[g;#D1B900;]###]                                     ## 
+  ${OUTPUT_STRING}${glow("Networking")} 
+  ${OUTPUT_STRING}${glow("Linux")}
+  ${OUTPUT_STRING}${glow("SIEM, EDR, Email security")} 
+  ${OUTPUT_STRING}${glow("web application attacks" )}
+  ${OUTPUT_STRING}${glow("azure sentinel, KQL, Defender for Endpoint and office 365")}       
+  ${OUTPUT_STRING}${glow("Email analysis")} 
+ 
 `,
   contact: `
 ${OUTPUT_STRING}${glow("Email")}            - georgedavid.work@gmail.com
