@@ -87,6 +87,7 @@ ${OUTPUT_STRING}${glow("all")}                - Tell me everything
 `,
   whois: `
 My name is ${glow("George David.")} I am a ${getAge("2003/03/15")}-year-old ${glow("SOC Analyst")} from Tamil Nadu, India.
+
 As an L1 SOC Analyst at SkySecure, I specialize in Azure Sentinel, focusing on incident handling and providing timely responses to client tickets, offering remediation steps to address security issues. My day-to-day responsibilities involve executing security operation procedures to ensure robust protection for our clients.
 
 In addition to my work with Azure Sentinel, I also utilize Microsoft Defender for Endpoint to investigate suspicious activities and detect malware. When necessary, I run antivirus scans to clean infected systems and maintain their integrity.
