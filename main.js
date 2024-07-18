@@ -84,12 +84,17 @@ ${OUTPUT_STRING}${glow("all")}                - Tell me everything
 
 I am  ${glow("George David")}.
 I'm a ${getAge("2003/03/15")} year old ${glow(
-    "Cyber security resercher"
+    "SOC Analyst"
   )} I am from India state of Tamil Nadu. 
-I am currently pursueing my BSc degree in Information security and digital forensics in Karunya institute of technology and sciences.
-Working at zoho organization as a intern.
-Some of my interests include ${glow(
-    "machine learning, cyber security, and blockchain"
+As an L1 SOC Analyst at SkySecure, I specialize in Azure Sentinel, focusing on incident handling and providing timely responses to client tickets, offering remediation steps to address security issues. My day-to-day responsibilities involve executing security operation procedures to ensure robust protection for our clients.
+
+In addition to my work with Azure Sentinel, I also utilize Microsoft Defender for Endpoint to investigate suspicious activities and detect malware. When necessary, I run antivirus scans to clean infected systems and maintain their integrity.
+
+Furthermore, I leverage Microsoft Defender for Office to investigate quarantined emails, ensuring that only safe emails are released to user mailboxes. My goal is to deliver comprehensive security solutions and maintain the highest level of protection for our clients.
+
+Previously, I interned at Zoho as a Security Engineer Intern, where I gained valuable experience in analyzing Java-based web application code for vulnerabilities such as XSS and SQL injection. This experience significantly enhanced my skills and knowledge in cybersecurity, allowing me to contribute effectively to my current role.
+
+I am also deeply interested in malware analysis, reverse engineering, and digital forensics. These areas fascinate me as they involve understanding the intricate details of cyber threats and devising strategies to mitigate them. I continuously seek to expand my expertise in these fields to stay ahead in the ever-evolving landscape of cybersecurity.
   )}. 
 
 please feel free to get in touch with me to discuss any cool opportunities!
