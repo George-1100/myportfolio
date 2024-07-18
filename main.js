@@ -110,7 +110,7 @@ Just type 'repo' to get the project documentation links.
 `,
   skills: `
 ${OUTPUT_STRING}${glow("Networking")}             ##  [[g;#00DE12;]######################################]  ##
-${OUTPUT_STRING}${glow("Linux)}     ##  [[g;#42D100;]##################################]      ##
+${OUTPUT_STRING}${glow("Linux")}     ##  [[g;#42D100;]##################################]      ##
 ${OUTPUT_STRING}${glow("SIEM, EDR, Email security")} ##  [[g;#5BD100;]################################]        ##
 ${OUTPUT_STRING}${glow(" web application attacks" )}             ##  [[g;#D16200;]###########]                             ##
 ${OUTPUT_STRING}${glow( "azure sentinel, KQL,
