@@ -99,19 +99,23 @@ please feel free to get in touch with me to discuss any cool opportunities!
 My contact details can be found by typing 'contact', and if you would like to check out my resume, simply type 'download_resume'.
 `,
   projects: `
-${glow(1)} I have done arduino based railway platform security project.
-${glow(2)} open-python based iris detection project
-${glow(3)} C# based keylogger project. 
-${glow(4)} I have done 1 month internship at Kaashiv infotech chennai.  
-${glow(5)} check out a few of my public repos? Just type 'repo' to get the links.
+${glow(1)} LIMACHARLIE EDR AND SOAR
+${glow(2)} AZURE SENTINEL THREAT MONITORING
+${glow(3)} WAZUH LAB
+${glow(4)} NESSUS VULNERABILITY MANAGEMENT
+${glow(5)} DIGITAL FORENSICS ON WANNACRY RANSOMWARE
+${glow(6)}  Zues banking trojan malware analysis
+
+Just type 'repo' to get the project documentation links.
 `,
   skills: `
-${OUTPUT_STRING}${glow("Python")}              ##  [[g;#00DE12;]######################################]  ##
-${OUTPUT_STRING}${glow("Ethical hacking")}     ##  [[g;#42D100;]##################################]      ##
-${OUTPUT_STRING}${glow("penetration testing")} ##  [[g;#5BD100;]################################]        ##
-${OUTPUT_STRING}${glow("C & C++")}             ##  [[g;#D16200;]###########]                             ##
-${OUTPUT_STRING}${glow( "Unitiy Engine")}       ##  [[g;#99D100;]####]                                    ##
-${OUTPUT_STRING}${glow("solidity")}            ##  [[g;#D1B900;]###]                                     ##
+${OUTPUT_STRING}${glow("Networking")}            /*  ##  [[g;#00DE12;]######################################]  ##
+${OUTPUT_STRING}${glow("Linux)}     ##  [[g;#42D100;]##################################]      ##
+${OUTPUT_STRING}${glow("SIEM, EDR, Email security")} ##  [[g;#5BD100;]################################]        ##
+${OUTPUT_STRING}${glow(" web application attacks" )}             ##  [[g;#D16200;]###########]                             ##
+${OUTPUT_STRING}${glow( "azure sentinel, KQL,
+ Defender for Endpoint and office 365")}       ##  [[g;#99D100;]####]                                    ##
+${OUTPUT_STRING}${glow("Email analysis")}            ##  [[g;#D1B900;]###]                                     ## */
 `,
   contact: `
 ${OUTPUT_STRING}${glow("Email")}            - georgedavid.work@gmail.com
