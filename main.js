@@ -121,7 +121,7 @@ My contact details can be found by typing 'contact', and if you would like to ch
   ${OUTPUT_STRING}${glow("SIEM, EDR, Email security")} 
   ${OUTPUT_STRING}${glow("web application attacks" )}
   ${OUTPUT_STRING}${glow("azure sentinel, KQL, Defender for Endpoint and office 365")}       
-  ${OUTPUT_STRING}${glow("Email analysis")} 
+  ${OUTPUT_STRING}${glow("KQL")} 
  
 `,
   contact: `
@@ -160,7 +160,7 @@ var commands = {
 
   download_resume: function () {
     downloadURI(
-      "Georgedavid resume.pdf"
+      "George_David_SOC_Resume_2025.pdf"
     );
   },
 
