@@ -86,29 +86,40 @@ ${OUTPUT_STRING}${glow("all")}                - Tell me everything
 
 `,
   whois: `
+
 My name is ${glow("George David.")} I am a ${getAge("2003/03/15")}-year-old ${glow("SOC Analyst")} from Tamil Nadu, India.
 
-As a Microsoft Certified Security Operations Analyst (SC-200) currently working at SkySecure, 
-I specialize in Microsoft Sentinel, focusing on effective incident handling and timely client response to enhance organizational security.
+As a Microsoft Certified Security Operations Analyst (SC-200) currently working at SkySecure,
+I specialize in Microsoft Sentinel, focusing on effective incident handling and timely client response
+to enhance organizational security.
 
-I manage 100+ security incidents monthly, developing remediation steps that reduce resolution time while improving detection accuracy. 
-I also leverage Microsoft Defender for Endpoint for threat hunting, suspicious activity investigation, 
-and malware detection, ensuring system integrity through targeted antivirus scans.
+I manage 100+ security incidents monthly, developing remediation steps that reduce resolution time
+while improving detection accuracy. I also leverage Microsoft Defender for Endpoint for threat hunting,
+suspicious activity investigation, and malware detection, ensuring system integrity through targeted antivirus scans.
 
-Using Microsoft Defender for Office 365, I handle phishing investigations and quarantined email analysis, 
+Using Microsoft Defender for Office 365, I handle phishing investigations and quarantined email analysis,
 ensuring safe mail delivery with a focus on reducing false positives while maintaining user safety.
 
-Beyond day-to-day operations, I have developed custom KQL analytical rules and automated playbooks using Azure Logic Apps to enhance SOC efficiency and improve response to high-severity incidents.
+Additionally, I work with Microsoft Purview for Data Loss Prevention (DLP),
+analyzing 100+ alerts daily while fine-tuning policies to reduce false positives and reporting
+on potential data exfiltration activities to protect sensitive organizational data.
 
-I am deeply interested in malware analysis, reverse engineering, and digital forensics, continually expanding my skills to stay ahead in the evolving cybersecurity landscape. My goal is to deliver proactive, comprehensive security solutions and contribute to building safer digital environments.
+Beyond day-to-day operations, I have developed custom KQL analytical rules and automated playbooks
+using Azure Logic Apps to enhance SOC efficiency and improve response to high-severity incidents.
+
+I am deeply interested in malware analysis, reverse engineering, and digital forensics, continually expanding
+my skills to stay ahead in the evolving cybersecurity landscape. My goal is to deliver proactive, comprehensive
+security solutions and contribute to building safer digital environments.
 
 🔹 Microsoft Certified: Security Operations Analyst (SC-200)
 🔹 Tools: Microsoft Sentinel, Defender, Purview, Azure Logic Apps
-🔹 Interests: Threat Hunting, Phishing and Malware Analysis, Automation, Digital Forensics
+🔹 Interests: Threat Hunting, Phishing and Malware Analysis, DLP, Automation, Digital Forensics
 
-please feel free to get in touch with me to discuss any cool opportunities!
-My contact details can be found by typing 'contact', and if you would like to check out my resume, simply type 'download_resume'.
+Please feel free to get in touch with me to discuss any cool opportunities!
+Type 'contact' for my details, or 'download_resume' to check my resume.
 `,
+
+
   projects: `
   ${glow(1)} LIMACHARLIE EDR AND SOAR                 - https://github.com/George-1100/Limacharle-EDR-SOAR
   ${glow(2)} AZURE SENTINEL THREAT MONITORING         - https://github.com/George-1100/sentinal
