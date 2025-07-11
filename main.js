@@ -88,11 +88,15 @@ ${OUTPUT_STRING}${glow("all")}                - Tell me everything
   whois: `
 My name is ${glow("George David.")} I am a ${getAge("2003/03/15")}-year-old ${glow("SOC Analyst")} from Tamil Nadu, India.
 
-As a Microsoft Certified Security Operations Analyst (SC-200) currently working at SkySecure, I specialize in Microsoft Sentinel, focusing on effective incident handling and timely client response to enhance organizational security.
+As a Microsoft Certified Security Operations Analyst (SC-200) currently working at SkySecure, 
+I specialize in Microsoft Sentinel, focusing on effective incident handling and timely client response to enhance organizational security.
 
-I manage 100+ security incidents monthly, developing remediation steps that reduce resolution time while improving detection accuracy. I also leverage Microsoft Defender for Endpoint for threat hunting, suspicious activity investigation, and malware detection, ensuring system integrity through targeted antivirus scans.
+I manage 100+ security incidents monthly, developing remediation steps that reduce resolution time while improving detection accuracy. 
+I also leverage Microsoft Defender for Endpoint for threat hunting, suspicious activity investigation, 
+and malware detection, ensuring system integrity through targeted antivirus scans.
 
-Using Microsoft Defender for Office 365, I handle phishing investigations and quarantined email analysis, ensuring safe mail delivery with a focus on reducing false positives while maintaining user safety.
+Using Microsoft Defender for Office 365, I handle phishing investigations and quarantined email analysis, 
+ensuring safe mail delivery with a focus on reducing false positives while maintaining user safety.
 
 Beyond day-to-day operations, I have developed custom KQL analytical rules and automated playbooks using Azure Logic Apps to enhance SOC efficiency and improve response to high-severity incidents.
 
