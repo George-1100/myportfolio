@@ -131,7 +131,7 @@ My contact details can be found by typing 'contact', and if you would like to ch
   contact: `
 ${OUTPUT_STRING}${glow("Email")}            - georgedavid.work@gmail.com
 ${OUTPUT_STRING}${glow("Linkedin")}         - https://www.linkedin.com/in/georgedavidd
-${OUTPUT_STRING}${glow("Github")}           - https://github.com/George-1100/
+${OUTPUT_STRING}${glow("Github")}           - https://github.com/GeorgeDavidd
 
 `,
 };
